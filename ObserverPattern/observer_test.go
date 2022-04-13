@@ -6,10 +6,10 @@ import (
 )
 
 func Test(t *testing.T) {
-	t.Run("BuilderPattern", BuilderPatternTest)
+	t.Run("ObserverPattern", ObserverPatternTest)
 }
 
-func BuilderPatternTest(t *testing.T) {
+func ObserverPatternTest(t *testing.T) {
 	p1 := NewPatient("bob", 36.5, 60)
 	p2 := NewPatient("tony", 36, 80)
 	n1 := NewNurse("sarah")
