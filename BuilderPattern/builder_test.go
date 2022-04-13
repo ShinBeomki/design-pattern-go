@@ -17,7 +17,7 @@ func BuilderPatternTest(t *testing.T) {
 	BSbank := New()
 	account2 := BSbank.Owner("Patty").Build()
 	fmt.Println(account2.ShowInfo())
-	//patty의 계좌번호를 넣을수도 안넣을수도 있다. 또한 넣을데이터를 가공해서 넣을수도있다.
-	//	ex) 오늘의 날짜와 시간을 조합해 계좌번호를 생성후 build
+	//	patty의 계좌번호를 넣을수도 안넣을수도 있다. 또한 넣을데이터를 가공해서 넣을수도있다.
+	//	ex) 현재 날짜와 시간을 조합해 계좌번호를 생성후 build
 
 }
