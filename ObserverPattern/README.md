@@ -14,4 +14,4 @@
  - observer 를 제때 제거해주지 않으면 메모리 누수가 일어날 수 있다.
    - 이 예제에서는 unsubscribe를 구현하지 않았음
 ---
-##### 출처 : https://up-to-date-items.tistory.com/238
+###### 출처 : https://up-to-date-items.tistory.com/238
